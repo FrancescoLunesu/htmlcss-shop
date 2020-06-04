@@ -1,0 +1,80 @@
+/* formattazione */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* sfondo */
+body{
+    background-color: black;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgottakeepmovin.com%2Fwp-content%2Fuploads%2F2015%2F04%2F2015-04-28-09.03.59-3.jpg&f=1&nofb=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* proprietà container */
+.container{
+    background-color: whitesmoke;
+    width: 850px;
+    height: 700px;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+/* proprietà div della prima riga */
+.catalogo1{
+
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+    display: inline-block;
+    border-radius: 10px;
+}
+/* proprietà div della seconda riga */
+.catalogo2{
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+    display: inline-block;
+    border-radius: 10px;
+}
+/* proprietà delle immagini */
+img{
+    width: 240px;
+    height: 270px;
+    position: static;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.sconto1{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: relative;
+    left: 210px;
+    top: 30px;
+}
+
+.sconto2{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    position: relative;
+    left: 210px;
+    top: 30px;
+}
+
+span{
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+
+p{
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+
+p:hover{
+    color: rgba(255, 0, 0, 1);
+}
