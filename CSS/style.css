@@ -75,6 +75,11 @@ p{
     font-size: 30px;
 }
 
-p:hover{
+/* Comparsa dei cuori al passaggio del cursore sulle singole immagini */
+.catalogo1:hover p{
+    color: rgba(255, 0, 0, 1);
+}
+
+.catalogo2:hover p{
     color: rgba(255, 0, 0, 1);
 }
